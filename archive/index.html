@@ -1,0 +1,13 @@
+---
+layout: default
+title: Blog Archive
+---
+<h1>This is supposed to be the "Archive" page</h1>
+<p>TODO: All blog posts sorted by date</p>
+
+<h1>{{ page.title }}</h1>
+<ul class="posts">
+	{% for post in site.posts %}
+	<li><span>[{{ post.date | date_to_string }}]</span>  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>                                                                          
+	{% endfor %}
+</ul>
