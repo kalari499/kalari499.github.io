@@ -3,6 +3,7 @@
 html {
     position: relative;
     min-height: 100%;
+    background-color: #F9E5FF;
 }
 
 body {
@@ -45,6 +46,17 @@ body {
     margin-bottom: 40px;
 }
 
+#main p {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#main .post-title {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 /* Footer */
 
 #footer {
@@ -52,6 +64,5 @@ body {
     bottom: 0;
     height: 40px;
     line-height: 40px;
-    background-color: #F5F5F5;
     text-align: center;
 }
