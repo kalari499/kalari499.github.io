@@ -2,10 +2,10 @@
 layout: default
 title: Blog Archive
 ---
-<h1>This is supposed to be the "Archive" page</h1>
-<p>TODO: All blog posts sorted by date</p>
+<h2 class="title text-center">find / -type blog-post</h2>
 
-<h1>{{ page.title }}</h1>
+<p><span style="color: red;">TODO:</span> All public posts, sorted by date. Draft version:</p>
+
 <ul class="posts">
 	{% for post in site.posts %}
 	<li><span>[{{ post.date | date_to_string }}]</span>  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>                                                                          

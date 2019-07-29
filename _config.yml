@@ -1,4 +1,5 @@
 name: kalari499
-highlighter: rouge
 markdown: kramdown
-permalink: /:year/:month/:day/:title
+kramdown:
+    parse_block_html: true
+permalink: /:categories/:title
