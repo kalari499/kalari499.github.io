@@ -1,12 +1,13 @@
 ---
 layout: post
-title: OSCP Journey&#58; Week 0
+title: OSCP Journey&#58; Init
+description: I finally sign up for OSCP today for 30 days lab time. Just quick general thought and plan for the following weeks.
 category: OSCP
 ---
 
 ### TLDR
 
-I sign up for OSCP today for 30 days lab. Just quick general thought and plan for the following weeks.
+{{ page.description }}
 
 ### Story Time
 

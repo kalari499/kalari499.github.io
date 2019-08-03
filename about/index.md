@@ -14,6 +14,7 @@ title: About Me
 
 <p>I enjoy coding in my free time. Experience with Bash/Python/Perl/Ruby (scripting) and C/C++/ASM (binary reversing/exploiting). Also experience with algorithmic/game theory stuff.</p>
 <p>I also enjoy cooking if the timetable allows it. Big fan of Gordon Ramsay, both as a chef and a person.</p>
+<p>Favorite song: [Requiem - Mallory Bechtel](https://www.youtube.com/watch?v=Yrl1qEyqfcI)</p>
 <p>Favorite singer: [Against The Current](https://www.youtube.com/channel/UCxMsgwldMZiuFTD6jjv32yQ)</p>
 
 <br/>

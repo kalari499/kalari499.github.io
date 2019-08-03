@@ -58,6 +58,41 @@ body {
     color: #24248F;
 }
 
+#main img {
+    max-width: 100%;
+    margin: 10px;
+}
+
+#main .see-all {
+    color: #696969;
+    text-align: center;
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+#front-page .post {
+    margin-bottom: 20px;
+    border-bottom: 0.6px solid;
+}
+
+#front-page .title {
+    color: black;
+    font-size: 2em;
+}
+
+#front-page .title:hover {
+    text-decoration: underline;
+}
+
+#front-page .meta {
+    color: grey;
+}
+
+#front-page .preview {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 /* Footer */
 
 #footer {
