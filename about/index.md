@@ -8,7 +8,7 @@ title: About Me
 <p>I'm a 3rd year Bachelor student in Ecole Polytechnique, France. I'm doing a double major in Math and Computer Science.</p>
 <p>I'm interested in network/security stuff. I'm ranked Pro Hacker (cool title I know) on [hackthebox.eu](https://www.hackthebox.eu) with around 40 rooted machines under my belt. I also do several CTFs for fun as well but not with any teams.</p>
 <img src="https://www.hackthebox.eu/badge/image/133148" alt="Hack The Box"><br/>
-<p>Aside from that, I also do Competitive Programming. I participated in ACM-ICPC 2018, regional round of South Western Europe (top 19)</p>
+<p>Aside from that, I also do Competitive Programming. I participated in ACM-ICPC 2018, regional round of South Western Europe (top 19).</p>
 
 <br/>
 

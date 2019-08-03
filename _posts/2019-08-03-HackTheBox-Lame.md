@@ -8,7 +8,9 @@ category: HackTheBox
 ### Introduction
 
 Lame is a Linux box, difficulty Easy on HTB.
-It's the first box ever created on HTB and it's very easy (just like the name suggests)
+It is the first box ever created on HTB.
+
+Just like the name suggests, it is very easy, using old Samba exploit to get root shell directly.
 
 ### Initial Scan
 
