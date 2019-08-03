@@ -8,7 +8,7 @@
 	<body>
         
         <div class="column col-sm-3" id="sidebar">
-            <img class='img-circle' src="/pictures/avatar.jpg">
+            <img class='img-circle' src="/resources/avatar.jpg">
             <p>kalari499's Blog</p>
             <ul class="nav">
                 <li><a href="/">Home</a></li>
