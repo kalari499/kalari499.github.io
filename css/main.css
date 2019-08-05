@@ -3,7 +3,7 @@
 html {
     position: relative;
     min-height: 100%;
-    background-color: #F9E5FF;
+    background-color: #A5FECB;
 }
 
 body {
@@ -64,7 +64,7 @@ body {
 }
 
 #main .see-all {
-    color: #696969;
+    color: #FF4B2B;
     text-align: center;
     font-size: 1.5em;
     text-decoration: underline;
