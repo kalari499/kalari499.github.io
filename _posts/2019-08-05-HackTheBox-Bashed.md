@@ -7,7 +7,7 @@ category: HackTheBox
 
 ### Introduction
 
-Bashed is a Linux box, difficulty Bashed on HTB.
+Bashed is a Linux box, difficulty Easy on HTB.
 
 The box is quite easy and straightforward.
 User part is finding a running shell on the webserver.
