@@ -7,7 +7,7 @@ category: HackTheBox
 
 ### Introduction
 
-Valentine is a Valentine box, difficulty Easy on HTB.
+Valentine is a Linux box, difficulty Easy on HTB.
 
 User part is by finding an encrypted ssh key on the server along with using SSL Heartbleed to get the passphrase.
 Root part is really trivial by connecting to an existing root tmux session.
