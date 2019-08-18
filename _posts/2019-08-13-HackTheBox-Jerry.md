@@ -10,7 +10,7 @@ category: HackTheBox
 Jerry is a Windows box, difficulty Easy on HTB.
 
 The box is very easy.
-There is an Apache Tomcat running as root.
+There is an Apache Tomcat running as NT AUTHORITY\SYSTEM.
 We can get root shell directly by finding default credentials for manager panel then upload the jsp reverse shell.
 
 ### Initial Scan
