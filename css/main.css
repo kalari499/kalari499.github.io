@@ -3,7 +3,7 @@
 html {
     position: relative;
     min-height: 100%;
-    background-color: #A5FECB;
+    background-color: #C0C0C0;
 }
 
 body {
@@ -12,6 +12,10 @@ body {
 }
 
 /* Sidebar */
+
+#sidebar {
+    border-right: 1px solid;
+}
 
 #sidebar img {
     display: block;
@@ -44,6 +48,7 @@ body {
 
 #main {
     margin-bottom: 40px;
+    padding-left: 40px;
 }
 
 #main .meta {
