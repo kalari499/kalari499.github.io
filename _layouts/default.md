@@ -27,7 +27,4 @@
             <p class="text-muted">Made by kalari499 &#169; 2019</p>
 		</footer>
 	</body>
-    {% if jekyll.environment != 'development' %}
-    {% include google_analytics.html %}
-    {% endif %}
 </html>
