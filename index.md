@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Welcome to kalari499's Blog
+title: My Playground
 ---
-<h2 class="title text-center">ls latest_posts/</h2>
+<h2 class="title text-center">ls latest-posts/</h2>
 
 <div id="front-page">
 {% for post in site.posts limit:15 %}

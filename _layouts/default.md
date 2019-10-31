@@ -2,19 +2,18 @@
 <html>
 	<head>
         <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="/css/style.css">
         <link rel="stylesheet" type="text/css" href="/css/main.css">
         <title>{{ page.title }}</title>
 	</head>
 	<body>
         
         <div class="column col-sm-3" id="sidebar">
-            <img class='img-circle' src="/resources/avatar.jpg">
+            <img class='img-circle' src="/resources/avatar.png">
             <p>kalari499's Blog</p>
             <ul class="nav">
                 <li><a href="/">Home</a></li>
                 <li><a href="/about">About Me</a></li>
-                <li><a href="/resume">CV</a></li>
+                <li><a href="/resume" target="_blank">Resume</a></li>
                 <li><a href="/archive">Archive</a></li>
             </ul>
         </div>
