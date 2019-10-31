@@ -8,16 +8,16 @@ category: Tips
 ### Context
 
 Initially when I first created this blog, I made a folder named *resources/*, which was meant to contains all pictures and the like.
-But now I want to change its name to be something different like *_resources/* or *_public/* to be more consistent with the naming scheme of Jekyll.
+But now I want to change its name to be something different like *public/* or *assets/*.
 The problem is that a lot of layouts and posts have referenced that folder, which means I have to find a way to change all of them as well.
 
-![Screenshot](/resources/04-1.png)
+![Screenshot](/assets/04-1.png)
 
 ### Avada Kedavra
 
 Change to blog root directory and run
 ```bash
-find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/\/resources/\/_public/g'
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/\/resources/\/public/g'
 ```
 
 And voila we are done.
@@ -40,6 +40,6 @@ And voila we are done.
 
 - Part 3: *sed*
     + `-i`: Edit in-place (no backup)
-    + `s/\/resources/\/_public/g`: Change all */resources* to */public*
+    + `s/\/resources/\/public/g`: Change all */resources* to */public*
     + ELI5: Edit every occurence in a file
 

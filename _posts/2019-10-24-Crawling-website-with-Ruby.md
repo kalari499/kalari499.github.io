@@ -14,7 +14,7 @@ To be more precise, we are going to get the name of cities, along with their ran
 
 Prequisite for the tutorial is just basic HTML/CSS and understanding of CSS selectors.
 
-![Screenshot](/resources/02-1.png)
+![Screenshot](/assets/02-1.png)
 
 ### What is web crawling, and what can I do with it ?
 
@@ -76,7 +76,7 @@ See Nokogiri documentation for more details and more API.
 Tips for choosing the right element we want, pay attention to the inspect tool for the correct tag/class.
 Here for each row, we can extract the name of city by getting the text of the second link in `<a>` tag for each.
 
-![Screenshot](/resources/02-2.png)
+![Screenshot](/assets/02-2.png)
 
 A small note here, getting the text of an element in Wikipedia might includes some footnote references.
 For example in `population`.
