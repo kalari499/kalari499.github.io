@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Terminal Magic&#58; Replace text recursively
-description: How to replace all occurences of a word by another word in all files inside multiple directories
+description: How to replace all occurences of a word by another word in all files inside multiple directories.
 category: Tips
 ---
 
