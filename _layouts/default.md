@@ -14,8 +14,8 @@
                 <li><a href="/">Home</a></li>
                 <li><a href="/about">About Me</a></li>
                 <li><a href="/resume" target="_blank">Resume</a></li>
+                <li><a href="/documentation">Documentation</a></li>
                 <li><a href="/archive">Archive</a></li>
-                <li><a href="/notes">Random things</a></li>
             </ul>
         </div>
 
