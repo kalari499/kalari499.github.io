@@ -2,7 +2,7 @@
 layout: default
 title: Project Incredibles
 ---
-<h2 class="title text-center">cat plans-and-notes.txt</h2>
+<h2 class="title text-center">cat plans-incredibles.txt</h2>
 
 ## FAQ
 #### What is Project Incredibles ?
@@ -31,8 +31,8 @@ However the concept is the same.
 The internal network is consisted of several machines, all of which is built with virtualization on VirtualBox.
 
 #### List of machines
-- Elastigirl - Xubuntu 18.04.3 - Hypervisor
-- MrIncredible - pfSense 2.4.4-p3 - Firewall/Gateway
+- MrIncredible - Xubuntu 18.04.3 - Hypervisor
+- Elastigirl - pfSense 2.4.4-p3 - Firewall/Gateway
 - Dash - Ubuntu Server 18.04.3 - Nginx static webserver
 - Violet - Ubuntu Server 18.04.3 - Apache PHP webserver
 - JackJack - Ubuntu Server 18.04.3 - Git server
@@ -41,7 +41,7 @@ The internal network is consisted of several machines, all of which is built wit
 
 #### Network
 - Domain name: *.incredibles*.
-- Every computer must use MrIncredible as DHCP server and DNS server, which acts as a DNS forwarder to school DNS server
+- Every computer must use Elastigirl as DHCP server and DNS server, which acts as a DNS forwarder to school DNS server
 - Internal network
     + Subnet: 172.16.1.0/24
     + Consists of most machines, including webservers, email server,...
@@ -50,14 +50,19 @@ The internal network is consisted of several machines, all of which is built wit
 - IT network
     + Subnet: 172.16.2.0/24
     + Consists of machines for management reasons, including host hypervisor, IPS,...
-    + Host hypervisor can connect to both internal network and IT network
+    + MrIncredible can connect to both internal network and IT network
 
 #### Working from outside
-- Temporary: Firewall can create an exception allowing Syndrome to connect directly to the internal network
-- Permanently: Syndrome must use host hypervisor as a proxy to connect to internal network
+- Temporary 1:
+    + Create a firewall exception allowing Syndrome to connect to Elastigirl
+    + Enable Squid proxy for public interfaces - might be danagerous
+- Temporary 2 - Might be dangerous
+    + Enable SSH service on MrIncredible wifi interface
+    + Port forwarding with SSH service
+- Permanently: A VPN service allowing Syndrome to connect
 
 ## Project Roadmap
-- Setup MrIncredible - Firewall/Gateway
+- Setup Elastigirl - Firewall/Gateway
     * ~~Install pfSense~~
     * ~~Network segmentation: 2 internal subnets, 1 public facing interfaces~~
     * ~~Setup DNS forwarder service~~
@@ -70,9 +75,9 @@ The internal network is consisted of several machines, all of which is built wit
     * Add static content
     * Add HTTPS support
 - Allow internal access for other laptop - Syndrome
-    * Setup static IP for MrIncredible and Syndrome
-    * ~~Setup firewall fule for Syndrome~~
-    * ~~(Temporary) Enable Squid proxy for Syndrome~~
+    * Setup static IP for Elastigirl and Syndrome
+    * ~~(Temporary 1) Setup firewall fule for Syndrome and enable Squid proxy for Syndrome~~
+    * ~~(Temporary 2) Enable SSH service on MrIncredible and configure port forwarding for HTTP and HTTPS~~
     * Setup VPN for Syndrome
 - Setup Violet - Apache webserver
     * Setup static IP in internal network and Squid proxy
@@ -88,8 +93,8 @@ The internal network is consisted of several machines, all of which is built wit
     * Setup static IP in internal network and Squid proxy
     * Setup Postfix
     * (Not sure, maybe PosegreSQL + Dovecot as well)
-- Further
-    * Setup DNS sinkhole to block ads for MrIncredible (pfBlockerNG)
+- More functionalities
+    * Setup DNS sinkhole to block ads (pfBlockerNG)
     * Change all devices in-house to use MrIncredible as DNS server
 
 ## Project Extension

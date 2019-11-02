@@ -14,7 +14,7 @@
                 <li><a href="/">Home</a></li>
                 <li><a href="/about">About Me</a></li>
                 <li><a href="/resume" target="_blank">Resume</a></li>
-                <li><a href="/documentation">Documentation</a></li>
+                <li><a href="/incredibles">Project Incredibles</a></li>
                 <li><a href="/archive">Archive</a></li>
             </ul>
         </div>
