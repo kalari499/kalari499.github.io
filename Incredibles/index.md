@@ -2,7 +2,7 @@
 layout: default
 title: Project Incredibles
 ---
-<h2 class="title text-center">cat plans-incredibles.txt</h2>
+<h2 class="title text-center">cat plans-Incredibles.txt</h2>
 
 ## FAQ
 #### What is Project Incredibles ?

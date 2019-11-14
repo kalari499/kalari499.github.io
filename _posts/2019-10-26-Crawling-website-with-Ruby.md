@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Crawling websites with Ruby
-description: A quick tutorial on web scrapping in Ruby, using Nokogiri gem.
-category: Programming
+title: Tips&#58; Crawling websites with Ruby + Nokogiri
+description: A quick tutorial on web scrapping in Ruby with the help of Nokogiri gem.
+category: Tips
 ---
 
 ### Foreword

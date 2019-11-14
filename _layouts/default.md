@@ -15,7 +15,8 @@
                 <li><a href="/about">About Me</a></li>
                 <li><a href="/resume" target="_blank">Resume</a></li>
                 <li><a href="/schedule">Blog Schedule</a></li>
-                <li><a href="/incredibles">Project Incredibles</a></li>
+                <li><a href="/Incredibles">Project Incredibles</a></li>
+                <li><a href="/MonstersInc">Project MonstersInc</a></li>
                 <li><a href="/archive">Archive</a></li>
             </ul>
         </div>

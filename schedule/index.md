@@ -18,7 +18,7 @@ No JavaScript at all, everything is static, I want to keep thing simple and let 
 
 ### Current major series
 - [Project Incredibles](/incredibles): Documentation on setting up a home lab, and detailed instruction how-to guide for basic setup.
-- [Project MonsterInc](/monsterinc): Documentation on writing a simple virus on Linux, demonstrating some common techniques seen in commercial viruses.
+- [Project MonstersInc](/monstersinc): Documentation on writing a simple virus on Linux, demonstrating some common techniques seen in commercial viruses.
 
 ### Future schedule (Last updated 14 Nov)
 + Tips: Basic web crawler with Ruby + Nokogiri / Python + BeautifulSoup

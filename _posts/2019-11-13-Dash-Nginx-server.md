@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Building&#58; Dash - Nginx webserver
-description: Project Incredibles series (Dash)&#58; A detailed instruction on how to set up a Nginx webserver with PHP and MySQL, with some security notes.
-category: Incredibles
+description: Project Incredibles series&#58; A detailed instruction on how to set up a Nginx webserver with PHP and MySQL, with some security notes.
+category: Building
 ---
 
 ### Context
 
-This is the first post in the series [Project Incredibles](/incredibles).
+This is the first post in the series [Project Incredibles](/Incredibles).
 It will be a long post so hang tight.
 
 Today we are going to setup Dash machine - a dynamic webserver using Nginx, or as the buzzword goes "LEMP stack".

@@ -5,7 +5,7 @@ title: My Playground
 <h2 class="title text-center">ls latest-posts/</h2>
 
 <div id="front-page">
-{% for post in site.posts limit:15 %}
+{% for post in site.posts limit:10 %}
 <div class="post">
 <a class="title" href="{{ post.url }}">{{ post.title }}</a>
 <p class="meta">kalari499 / {{ post.category }} / {{ post.date | date_to_long_string }}</p>
