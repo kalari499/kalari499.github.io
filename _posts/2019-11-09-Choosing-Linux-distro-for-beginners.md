@@ -72,7 +72,7 @@ A new born in the community.
     + People who want an elegant style
 ![Online](/assets/06-3.png)
 
-### Ending
+### The End
 
 Personally I would go for Linux Mint just because its simplicity.
 Fun fact, do you know Elliot in Mr Robot also uses Linux Mint for daily driver ?

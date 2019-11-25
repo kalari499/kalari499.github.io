@@ -5,7 +5,7 @@ description: A quick tutorial on web scrapping in Ruby with the help of Nokogiri
 category: Tips
 ---
 
-### Foreword
+### Context
 
 In this post, we are going to take a look on how to crawl content from the Internet, with the help from Ruby and Nokogiri gem.
 

@@ -21,6 +21,7 @@ As a note, port forwarding is also one of the common techniques used by attacker
 The idea is that sensitive and interesting stuffs are stored in the internal network, which is obviously not accessible from the outside.
 But the attacker can compromise a public-facing server, then use it as leverage for lateral movement inside the network.
 
+
 ### Show me the Terminal Magic
 
 All I have to do to make it works is to run
@@ -37,6 +38,7 @@ Alternatively, after normally ssh normally, in a newline prompt, type `~C` to op
 ```
 
 ![Screenshot](/assets/05-2.png)
+
 
 ### Explanation
 
@@ -55,3 +57,11 @@ This means rhost is address of C, and rport is 80.
 Also lhost can be localhost - 127.0.0.1, and lport can be anything (here I choose 7000).
 
 The syntax for the command is pretty simple, add a flag `-L 7000:<Webserver IP>:80` because the lhost can be omitted.
+
+
+### The End
+
+That's it for this post.
+Hope you've learnt something new.
+
+See you next post.
