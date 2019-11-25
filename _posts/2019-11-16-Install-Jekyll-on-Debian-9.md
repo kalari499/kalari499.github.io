@@ -12,6 +12,10 @@ You know what they say about stable distros: Its packages are old as heck.
 On Debian 9 - Devuan 2, the Ruby package is version 2.3.3, which unfortunately [ends on 31/5/19](https://www.ruby-lang.org/en/news/2019/03/31/support-of-ruby-2-3-has-ended/).
 
 Anyway, if you are installing Jekyll from upstream, version 4.0.0, you are likely to face a dependency issue with jekyll-sass-converter.
+Something like this
+```
+jekyll-sass-converter requires Ruby version >= 2.4.0.
+```
 Took me quite a while to resolve, so I want to write this for those who face the same issue.
 
 Also in case you don't know, Jekyll is used for generating static webpages, and it's used for GitHub pages, just like this very page you are reading.
