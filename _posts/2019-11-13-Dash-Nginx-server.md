@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Building&#58; Dash - Nginx webserver
+title: Building&#58; Dash - Nginx webserver (Long)
 description: Project Incredibles series&#58; A detailed instruction on how to set up a Nginx webserver with PHP and MySQL, with some security notes.
 category: Building
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tips&#58; Installing Jekyll on Debian 9 family (Ruby 2.3 or before)
-description: Workaround installation of Jekyll with Ruby version before 2.4.0, notably on Debian 9 and Devuan 2.
+description: Workaround installation of Jekyll with Ruby version 2.3 or before, notably on Debian 9 and Devuan 2 (Ruby 2.3.3).
 category: Tips
 ---
 
