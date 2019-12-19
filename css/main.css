@@ -1,109 +1,120 @@
 /* Global */
 
 html {
-    position: relative;
-    min-height: 100%;
-    background-color: #EEEEEE;
+  position: relative;
+  min-height: 100%;
+  background-color: #D8DEE9;
 }
 
 body {
-    margin: 40px auto;
-    width: 70%;
+  margin: 40px auto;
+  width: 70%;
+  color: #434C5E;
 }
 
 /* Sidebar */
 
 #sidebar {
-    border-right: 1px solid;
+  border-right: 1px solid;
 }
 
 #sidebar img {
-    display: block;
-    border: 3px solid #73AD21;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
+  display: block;
+  border: 3px solid #E5E9F0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
 }
 
 #sidebar p {
-    width: 50%;
-    margin: 0 auto;
-    margin-top: 35px;
-    margin-bottom: 20px;
-    text-align: center;
-    font-size: 1.2em;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 1.2em;
 }
 
 #sidebar a {
-    color: #3E5151;
-    border-bottom: 0.3px solid; 
-    text-decoration: none;
+  color: #4C566A;
+  border-bottom: 0.3px solid; 
+  text-decoration: none;
 }
 
 #sidebar a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* Main */
 
 #main {
-    margin-bottom: 40px;
-    padding-left: 40px;
+  margin-bottom: 40px;
+  padding-left: 40px;
 }
 
 #main .meta {
-    font-size: small;
+  font-size: small;
+}
+
+#main h1,h2,h3,h4,h5,h6 {
+  color: #3B4252;
 }
 
 #main p {
-    font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#main a {
+  color: #3B4252;
 }
 
 #main code {
-    color: #24248F;
+  color: #5E81AC;
 }
 
 #main img {
-    max-width: 100%;
-    margin: 10px;
+  max-width: 100%;
+  margin: 10px;
+}
+
+#main div .highlight {
+  background-color: #ECEFF4;
 }
 
 #main .see-all {
-    color: black;
-    text-align: center;
-    font-size: 1.5em;
-    text-decoration: underline;
+  text-align: center;
+  font-size: 1.5em;
+  text-decoration: underline;
 }
 
 #front-page .post {
-    margin-bottom: 20px;
-    border-bottom: 0.6px solid;
+  margin-bottom: 20px;
+  border-bottom: 0.6px solid;
 }
 
 #front-page .title {
-    color: black;
-    font-size: 2em;
+  font-size: 2em;
 }
 
 #front-page .title:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 #front-page .meta {
-    color: grey;
+  color: #4C566A;
 }
 
 #front-page .preview {
-    margin-top: 20px;
-    margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /* Footer */
 
 #footer {
-    position: absolute;
-    bottom: 0;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
+  position: absolute;
+  bottom: 0;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
 }
