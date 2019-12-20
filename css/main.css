@@ -66,6 +66,7 @@ body {
 
 #main a {
   color: #3B4252;
+  text-decoration: underline;
 }
 
 #main code {
